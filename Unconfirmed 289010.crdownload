@@ -6,7 +6,7 @@ window.addEventListener("popstate", function() {
   if(location.hash === "#!/history") {
     history.replaceState(null, document.title, location.pathname);
     setTimeout(function(){
-      location.replace("Gantidenganlinkshoope");
+      location.replace("https://shp.ee/xpsipkt");
     },10);
   }
 }, false);
